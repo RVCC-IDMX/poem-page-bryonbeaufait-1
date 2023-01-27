@@ -73,21 +73,53 @@ select {
   }
 }
 
+/* Start of CSS */
+
 body {
   background-color: darkslategrey;
   color: bisque;
   font-weight: bold;
   font-size: 16pt;
   font-family: 'Times New Roman', Times, serif;
-  text-align: center;
+  /* text-align: center; */
   padding: 1em;
   max-width: 100%;
 }
 
-img {
-  max-width: 100%;
+body {
+  display: grid;
+  gap: 2rem;
+}
+
+header {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+}
+
+p {
+  padding-bottom: 2rem;
 }
 
 .author {
+  padding: 2rem 0;
+  text-align: center;
+}
+/* Photo and Author */
+
+.raven {
+  display: grid;
+  grid-template-areas: 'stack';
+  justify-content: center;
+}
+
+.raven > * {
+  grid-area: stack;
+}
+
+.photo-author {
   font-size: 10pt;
+  color: darkslategray;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
 }
