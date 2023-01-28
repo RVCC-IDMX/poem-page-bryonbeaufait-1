@@ -80,7 +80,7 @@ body {
   color: bisque;
   font-weight: bold;
   font-size: 16pt;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Nanum Myeongjo', serif;
   /* text-align: center; */
   padding: 1em;
   max-width: 100%;
@@ -97,8 +97,18 @@ header {
   justify-content: center;
 }
 
+.poem {
+  display: grid;
+  justify-content: center;
+}
+
 p {
   padding-bottom: 2rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60pt;
 }
 
 .author {
