@@ -95,6 +95,7 @@ header {
   display: grid;
   gap: 2rem;
   justify-content: center;
+  align-content: center;
 }
 
 .poem {
@@ -132,4 +133,11 @@ p {
   color: darkslategray;
   padding-left: 0.5rem;
   padding-top: 0.25rem;
+}
+
+@media screen and (min-width: 60em) {
+  header {
+    display: grid;
+    justify-content: center;
+  }
 }
